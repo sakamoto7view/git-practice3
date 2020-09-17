@@ -9,7 +9,7 @@
 main {
   width: 960px; /* 横幅960px */
   margin: 0 auto; /* 要素の中央揃え */
-  padding: 50px 0; /* 上下に70px、左右に0pxの内側余白 */
+  padding: 50px 0; /* 上下に50px、左右に0pxの内側余白 */
 }
 
 .list-heading {
