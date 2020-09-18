@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HTML･CSSを学ぼう
 - 0章 【学習の準備をしよう】
 - 1章 【HTML・CSS学習の概要を理解しよう】
@@ -12,3 +13,7 @@
 - [10章 【課題：レスポンシブ対応させよう】](./10)
 - ショートカットキーを使おう
 - [Flexbox(Flexレイアウト)を学ぼう](./flex)
+=======
+# dwc_classroom_training
+GitHub Classroomの練習用リポジトリ
+>>>>>>> origin/master

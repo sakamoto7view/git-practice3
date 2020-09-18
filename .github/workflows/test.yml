@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [ master ]
 jobs:
+<<<<<<< HEAD
   review_02_exercise_01:
     runs-on: ubuntu-latest
     if: github.head_ref == '02_exercise_01'
@@ -423,12 +424,26 @@ jobs:
   review_continuous_exercise_10:
     runs-on: ubuntu-latest
     if: github.head_ref == 'continuous_exercise_10'
+=======
+  review_1_1:
+    runs-on: ubuntu-latest
+    if: github.head_ref == '1.1'
+>>>>>>> origin/master
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+<<<<<<< HEAD
+=======
+    - name: Build and test with RSpec
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        cd ./1.1
+        rspec
+>>>>>>> origin/master
     - name: autoapprove
       if: success()
       uses: hmarr/auto-approve-action@v2.0.0
