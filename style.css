@@ -13,7 +13,7 @@ header {
 }
 
 main {
-  width: 960px; /* 横幅960px */
+  width: 960px; /* 横幅960px  */
   margin: 50px auto;
   display: flex;
 }
